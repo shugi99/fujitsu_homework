@@ -1,4 +1,4 @@
-import { body_section } from "pages/utils/config";
+import { body_section } from "src/utils/config";
 
 const Body = () => {
   return (
@@ -19,6 +19,7 @@ const Body = () => {
             </div>
             <img
               src={section.image}
+              alt={section.alt}
               className={`${
                 i % 2 === 0 ? "lg:order-1" : ""
               } object-cover w-full mt-4  h-1/2 lg:h-[20rem] lg:w-1/2 2xl:w-2/5`}

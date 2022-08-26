@@ -3,6 +3,7 @@ const ContactUs = () => {
     <div className="relative w-full h-[24rem] xl:h-[30rem] bg-gray-300">
       <img
         src="/images/bg_contact.jpg"
+        alt="fujitsu join us"
         className="absolute object-cover w-full h-full mix-blend-overlay"
       />
       <div className="absolute w-5/6 ml-10 top-[2rem] lg:top-1/4 xl:px-[7rem] 2xl:px-[17rem]">

@@ -1,11 +1,11 @@
-import { news_section } from "pages/utils/config";
+import { news_section } from "src/utils/config";
 
 const News = () => {
   return (
     <div className="px-8 py-16 xl:px-[7rem] 2xl:px-[19rem]">
       <div className="text-2xl font-bold text-center xl:text-3xl">Heading</div>
       {news_section.map((section, i) => (
-        <div key={i}>
+        <div key={i} className="px-4">
           <div
             className={`${i % 2 === 0 ? "" : "hidden lg:block "} my-2 lg:my-6`}
           >

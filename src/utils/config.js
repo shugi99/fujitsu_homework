@@ -13,11 +13,13 @@ export const body_section = [
     paragraph_1: body_paragraph_1,
     paragraph_2: body_paragraph_2,
     image: "/images/001.jpg",
+    alt: "fujitsu image 01",
   },
   {
     paragraph_1: body_paragraph_1,
     paragraph_2: body_paragraph_2,
     image: "/images/002.jpg",
+    alt: "fujitsu image 02",
   },
 ];
 
@@ -25,10 +27,12 @@ export const article_section = [
   {
     paragraph_1: article_paragraph,
     image: "/images/010.jpg",
+    alt: "fujitsu image 10",
   },
   {
     paragraph_1: article_paragraph,
     image: "/images/011.jpg",
+    alt: "fujitsu image 11",
   },
 ];
 
